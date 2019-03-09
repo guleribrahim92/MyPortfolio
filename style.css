@@ -10,7 +10,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #31b0d5;
+  background-color: palevioletred;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -52,6 +52,7 @@ body {
 }
 
 .jumbotron-text h1 {
+  /*YOUR NAME*/
   text-transform: uppercase;
   font-weight: 800;
   font-size: 3em;
