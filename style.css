@@ -192,11 +192,14 @@ h4 {
 }
 
 .project-image {
-  flex: 1 0 auto;
+       max-width:100%;
+    height:auto;
 }
 
 .project-image img {
-  display: block;
+   max-width:100%;
+    height:auto;    
+    display: block;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -226,6 +229,25 @@ h4 {
   cursor: default;
   font-size: 1.2em;
 }
+
+/*HOBBIES*/
+.ul-hobbies {
+  text-align: center;
+  padding-left: 0;
+}
+
+.li-hobbies {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: white;
+  background: #31b0d5;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+}
+
+
 
 /*CONTACT*/
 .blue {
